@@ -1,4 +1,4 @@
-## All the samples on this branch are using the Node 8 runtime which is in beta and use ES2017 syntax. If you'd like to use ES2015 syntax because you're using the Node 6 runtime have a look at the [**master** branch](https://github.com/firebase/functions-samples/tree/master).
+## All samples use the Node 8 runtime with ES2017 syntax.
 
 # Cloud Functions for Firebase Sample Library
 
@@ -58,6 +58,10 @@ This quickstart sample demonstrates using **Cloud Functions** triggered by **Pub
 
 This quickstart sample demonstrates using **Cloud Functions** triggered by **Crashlytics**. The functions send an email when there is a new issue in an important conversion flow.
 
+### [Test Lab trigger quickstart: Log when a matrix completes](/quickstarts/test-complete)
+
+This quickstart demonstrates how to trigger a function in response to the
+completion of a test matrix in **Firebase Test Lab**.
 
 <a name="environment"></a>
 ## Development Environment Samples and Boilerplates
